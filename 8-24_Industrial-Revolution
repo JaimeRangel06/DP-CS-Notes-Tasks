@@ -1,6 +1,6 @@
 print("""4TH INDUSTRIAL REVOLUTION
 
-The 4th Industrial revolution is x, y and z
+The 4th Industrial revolution conceptualizes rapid growth and change to technologies, industries, and societal patterns in the 21st century from increasing interconnectivity and smart automation.
 
 
 - MENU -
@@ -10,6 +10,13 @@ Please choose one of the options below, and press enter.
 1) Question & Answer 1
 2) Question & Answer 2
 3) Question & Answer 3
+4) Question & Answer 4
+5) Question & Answer 5
+6) Question & Answer 6
+7) Question & Answer 7
+8) Question & Answer 8
+9) Question & Answer 9
+10) Question & Answer 10
 """)
 
 answer = "empty"
@@ -19,11 +26,26 @@ while (answer == "empty"):
   answer = "chosen"
 
   if(userchoice == "1"):
-    print("PROMPT 1")
+    print("Why are you here at school? I am here at school to get informed on topics that will be essential in what career I wish to pursue in the near future. It also helps me find what I truly want to explore as a career when I get older by allowing me to be involved in electives such as art, computer science, etc.")
   elif(userchoice == "2"):
-    print("PROMPT 2")
+    print("""What is the purpose of school? The purpose of school is to give children and teenagers an opportunity to be educated and prepared for what is to come in the real world. It also helps them understand what is going on around them as often they are oblivious to what anything means prior to getting an education.
+""")
   elif(userchoice == "3"):
-    print("PROMPT 3")
+    print("Are you getting out of it, what you should be getting out of it? Although many classes provide crucial information that will be necessary beyond school, there are some topics that seem miscellaneous and pointless as far as what I need for my career after school. Topics such as history and english do not seem as important if looking at a career that will be more math oriented and require an understanding of a certain piece of fiction or events in our past unless imperative. ")
+  elif(userchoice == "4"):
+    print("Who do you think went to school before that? Prior to children being allowed to go to school, I believe that only people from wealthy families were allowed to attend school. It is also safe to assume that “teachers” or private tutors were not as widely available nor that easy to afford, which restricted a lot of middle class citizens from a proper education that others were able to attain. If that is not the  case then it was most likely children of already educated parents that were able to be taught from those parents.")
+  elif(userchoice == "5"):
+    print("Why do you think the laws changed? I believe the laws were changed because of how education was viewed by Horace Mann. Mann visited Germany as part of a research trip in which he saw how important a proper education system was and wished to implement something similar in the U.S. I also believe this is what was the driving force that made school attendance mandatory for children. ")
+  elif(userchoice == "6"):
+    print("What effects do you think it would have? The new education system that was in place was seen as beneficial for children outside of a necessary education. This is because Mann believed that a school system would be an equalizer for students attending school as well as make them obedient to authority, improve promptness and attendance, and help their organization according to bell rings. This in turn would help students get ready for employment opportunities in a rather industrial era. ")
+  elif(userchoice == "7"):
+    print("What are your thoughts in response to this video? This video represents how far technology has evolved and how much knowledge we have acquired based on trials conducted in these fields. Without a basic understanding of technology or artificial intelligence, we would not be able to expand our knowledge on it nor be able to innovate in the industry by making groundbreaking discoveries or inventions. ")
+  elif(userchoice == "8"):
+    print("How might these new technologies affect education? These new technologies can affect our education in many different ways, good and bad. For one, it can help cut down on specific issues students may struggle with and help us achieve more as far as what we can do in the classroom. The downside is, there will be a disconnect between the class and the teacher if they were to be replaced by artificial intelligence as they do not properly display human emotions that many students need to remember the information being presented. ")
+  elif(userchoice == "9"):
+    print("Have you discovered what you love? I still have yet to discover what I truly love. I adore many subjects that are provided at school, but I still feel lost when it comes to what I truly love and wish to pursue in the future. ")
+  elif(userchoice == "10"):
+    print("Have you had the opportunity to grow in this area? Was it at school or was it outside of school? I have had the opportunity to grow in this area, but it was outside of school. I took some time to reflect on this and grow as a person overall and help me to be better in this aspect.")
   else:
     print("INVALID INPUT, please try again")
     answer = "empty"
