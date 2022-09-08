@@ -1,0 +1,77 @@
+print("""               \033[1m STARTNIG SYSTEMS \033[0m
+
+          What exactly is a system and 
+          what are some related topics?
+
+                   \033[1m --------
+                    - MENU -
+                    -------- \033[0m
+    Please choose one of the options below,
+                 and press enter.
+
+1) System
+2) Legacy Systems
+3) Planning
+4) Feasibility, including TELOS
+5) Change Management
+6) Business Merger
+7) Real World Example
+8) Hypothetical Example
+""")
+
+answer = "empty"
+
+while (answer == "empty"):
+  userchoice = input()
+  answer = "chosen"
+
+  if(userchoice == "1"):
+    print("""\033[1m SYSTEM \033[0m
+    When we talk about a "computer system," we don't just mean the software; we don't even mean software + hardware. A "computer system" is truly a complete IT system that includes all relevant components, including the people and the immediate environment. The system could entail maintaining and safeguarding data or hardware in addition to teaching staff members or users.
+    The majority of complex systems take a long time to develop and go through many different stages. But ultimately, compared to not utilizing the system, the new system ought to enhance the cost-to-benefit ratio.
+    The reason for implementing a new IT system is not singular, but it may be one of many, or a combination of several. New systems are often used to replace legacy systems. Often the new system is replacing a current system; perhaps because the current system is inefficient, or no longer suitable for its original purpose, or redundant or out-dated. Or, the system may be for a purpose which is entirely new for an organization.""")
+  elif(userchoice == "2"):
+    print("""\033[1m LEGACY SYSTEMS \033[0m
+    An example of a legacy system would be a hospital. It uses systems such as a clinical system, accounting system, pharmacy system and purchasing system. They all have to work together at one point in time, but often do not work together as they are stoed in individual silos which do not communicate with one another.
+    But occasionally it's necessary to integrate new systems with legacy ones. If a legacy system has a lot of data or storage, moving everything to a new system might not be feasible if there isn't an automated means to move the data. Although there may be new technology available, the new system might not completely satisfy a client's needs. Many of our government agencies, like NASA, use both older technology and more recent ones.
+    Along with lowering expenses, the new system can improve productivity or product quality while reducing faults or weaknesses in the current one.""")
+  elif(userchoice == "3"):
+    print("""\033[1m PLANNING \033[0m
+    When designing and putting into place a new system, this would entail talking about new hardware, shifting possible technology locations, new policies, new training and upskilling, as well as maybe hiring and firing workers. Although there are a plethora of issues that should be taken into consideration when planning...
+    a lack of:
+    - organizational & business startegy
+    - stakeholder & end-user participation
+    - end-user 'ownership' 
+    
+    attention to:
+    - required training
+    - organizationl issues, including group culture
+    - design of tasks & job roles
+    - overall usability of the system""")
+  elif(userchoice == "4"):
+    print("""\033[1m FEASIBILITY, INCLUDING TELOS \033[0m
+    A feasibility study should be carried out after taking into account and making an effort to foresee the aforementioned problems. A feasibility study needs to address a variety of topics. TELOS is a widely used acronym.
+    The TELOS framework was introduced by James A. Hall in Accounting Information Systems (2007). Hall demonstrates how to use it as the foundation for a feasibility study to improve a project's success and spot structural issues before devoting time and resources to it. The acronym TELOS stands for five important areas.
+    T: Technical feasibility concerns whether an organization's hardware and software can support a proposed new system, and if not, if it is practical to invest in new equipment. Here, every piece of hardware and software would be evaluated to see if it was required for the new system.
+    E: Economic feasibility has to do with a project's budget and how money will be used. It intersects with other areas of feasibility since there are frequently financial expenses connected to getting new technical (organizational) and technical (technical) people trained on new processes, as well as costs connected to timeframes running late (Schedule).
+    L: are there any conflicts between the proposed system and any local laws, regulations, etc.
+    O: Operation Feasibility is concerned with the participants' ability to work with the new system. Technical expertise of personnel would need to be taken into account, as would the need for staff training and the tools that would need to be available for training, such as training manuals.
+    S: The time allotted for the new system's development is related to the schedule's viability. Here, the timeline would be evaluated because projects that go over budget can have an organizational and financial impact on a corporation.""")
+  elif(userchoice == "5"):
+    print("""\033[1m CHANGE MANAGEMENT \033[0m
+    Organizational change is the process through which a firm or business changes a key aspect of its structure, such as its culture, the operational infrastructure or supporting technologies, or its internal procedures.
+    Change management is usually always a part of changing systems. This could involve moving, hiring, or firing individuals or entire departments, or it could just involve changing the way they go about their daily business.
+    When a change involves new technology or computerized/automated systems, people frequently approach it with worry and occasionally even terror. All stakeholders, including the employees, should be considered when maximizing benefits and minimizing drawbacks during change management.
+    Buy-in from all stakeholders should be the result of effective change management. Conflict or resistance to new workstations or processes is an indication that change management efforts were not totally successful. With more automation, some people might be concerned about losing their jobs, and regrettably, this worry occasionally comes true. """)
+  elif(userchoice == "6"):
+    print("""\033[1m BUSINESS MERGER \033[0m
+    A merger is an arrangement that combines two current businesses into a single new business. There are various merger types, and businesses merge for a variety of reasons. Mergers and acquisitions (M&A) are frequently carried out to broaden a company's clientele, enter new markets, or increase market share. The goal of all of these actions is to raise shareholder value. Companies frequently adopt a no-shop provision during a merger to stop acquisitions or mergers by other businesses.""")
+  elif(userchoice == "7"):
+    print("""\033[1m REAL WORLD EXAMPLE \033[0m
+    Some things I noticed while watching the video were the usage of proper planning alongside a true system in which they have assigned roles to carry out the information on the postcards that may be illegible.""")
+  elif(userchoice == "8"):
+    print("""\033[1m HYPOTHETICAL EXAMPLE \033[0m
+    What could arise from the change in the system is a replacement for an established legacy system. Another thing that has the possibility to arise in this new system is potential barriers that the system may face when transfering information from one system to the other if they entirely get rid of the legacy system. Without proper planning, they also have the potential to mess it all up if they do not undergo the right training or maintain proper organization.""")
+  else:
+    print("INVALID INPUT, please try again")
+    answer = "empty"   
