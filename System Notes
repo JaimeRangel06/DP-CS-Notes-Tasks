@@ -19,6 +19,14 @@ print("""               \033[1m STARTNIG SYSTEMS \033[0m
 8) Hypothetical Example
 """)
 
+print("""             \033[1m SYSTEM IMPLEMENTATION \033[0m
+
+9) System Changeover
+10) Implementation Methods 
+11) Related to, Phases in, and Issues in Data Migration
+12) Related to Business M&A
+13) Merger vs Acquisition
+""")
 answer = "empty"
 
 while (answer == "empty"):
@@ -72,6 +80,41 @@ while (answer == "empty"):
   elif(userchoice == "8"):
     print("""\033[1m HYPOTHETICAL EXAMPLE \033[0m
     What could arise from the change in the system is a replacement for an established legacy system. Another thing that has the possibility to arise in this new system is potential barriers that the system may face when transfering information from one system to the other if they entirely get rid of the legacy system. Without proper planning, they also have the potential to mess it all up if they do not undergo the right training or maintain proper organization.""")
+  elif(userchoice == "9"):
+    print("""\033[1m System Changeover \033[0m
+    The procedure for changing from one system to another is called a system transition. It's common for someone to make changes to their family's or own personal system without giving it much thought. However, a system switch may be more difficult and problematic the larger the environment. A business or organization probably manages and maintains the financial and personal information of individuals, as well as information related to their livelihood, health, and well-being, or the infrastructure of a certain area. 
+If something goes wrong or service is momentarily interrupted during a system switch at a hospital, power plant, or communication provider, it could have serious consequences. For these reasons, there are numerous methods for facilitating system transition.
+A firm or organization may occasionally rely entirely on a system or procedure that is being changed. A new system is frequently incorporated into an already established larger system or series of systems and may just replace a portion of an organization's or company's operations; for example, switching to Canvas while continuing to use Clever, Skyward, etc. Changing systems will typically result in higher immediate costs, which may include labor hours, training costs, as well as possible monetary expenditures. When a new system is deployed, there may also be resistance from staff or customers. Prior to implementation, planning should be done in an effort to lessen any negative repercussions of the transition.""")
+  elif(userchoice == "10"):
+    print("""\033[1m IMPLEMENTATION METHODS \033[0m
+    Different implementation strategies involve different trade-offs and hazards, and the "optimal strategy" is always depending on the circumstances. The following are the implementation strategies:
+    PARALLEL: In this manner of implementation, both systems operate briefly in parallel. Prior to turning off the older system, this method also enables output of the new system to be measured. The business can continue to rely on the old system if the new system's functionality is unsatisfactory while working to resolve any problems. Due to the fact that both systems are being used simultaneously, this strategy can be costly and stressful. To maintain both functioning concurrently, this might call for additional computer or network resources, extra labor hours, and money outlays. If the two systems are quite dissimilar, the transition may be exceedingly inefficient for some time.
+    BIG BANG/DIRECT/IMMEDIATE: This technique of implementation involves completely shutting down one system and bringing the other online as soon as preparations are finished. The least resource-intensive approach, but it necessitates frontloading training before the switchover. A third system or external location may also be required to transfer any data that has to be transferred from one system to the other while the switchover is taking place.
+    PILOT: The pilot group or pilot site is the smaller portion of an organization or business that adopts the new system under this implementation strategy. In larger organizations and businesses with numerous divisions or locations, this is extremely typical. With this approach, the new system may be tested and problems worked out with less risk before being introduced to the entire organization. Changeover procedures for the rest of the organization can be planned once the new system has proven successful for the pilot group. When the new system is implemented, the pilot group can be used as a guide.
+    PHASED: With this approach of implementation, the business or organization converts one module or section of the system at a time over time. This would imply that for data or processes to go back and forth between the new and old systems, they need to be sufficiently similar. Given that each component of the new system is implemented separately, training time is increased and the process will generally take longer. These implementation phases may be based on specific organizational processes or functions, or they may be based on specific organizational departments or teams.""")
+  elif(userchoice == "11"):
+    print("""\033[1m RELATED TO, PHASES IN, AND ISSUES IN DATA MIGRATION \033[0m
+    RELATED TO: There is a good probability that you will need to plan for data transfer from one system to another when putting a new system into place. This could involve modifying computer systems, storage devices, and format kinds.
+    Transferring data between different media, such as from paper to digital, may be challenging. Data types in digital formats may also be incompatible, such as when data stored in PDFs is attempted to be imported into a CSV spreadsheet or when data stored in floats is attempted to be loaded into an integer format. If the data migration procedure times out, fails, or meets other faults, more problems might occur. Data misinterpretation may also lead to incompatibilities when integrating systems from other areas. For instance, an organizational system may expect dates to be imported as dd/mm/yyyy instead of mm/dd/yyyy or temperature data to be imported in celsius rather than farenheit.
+    PHASES IN: Data Migration can be categorized into 3 phases: Plan, Migrate, and Validate.
+    PLAN: Identifying the requirements for the relocation should be a part of the planning process. Future environmental factors, development, and migration plan paperwork should all be taken into account. 
+    MIGRATE: In this step, the plan is explained, the necessary software and hardware is acquired, installed, and set up, and the actual transference procedure is carried out. 
+    VALIDATE: Tests are run in this stage to ensure that data is in the same condition both before and after the migration. To establish a baseline before the procedure, it is advised to execute tests both before and after the migration.
+    ISSUES: When dealing with a Data Migration, you may be prone to issues such as poor communication, not understanding the data properly, underestimating data analysis, lack of integrated processes, inability to validate a specification, failure to validate the implementation, late evaluation of the final results, and inappropriate use of Expertise. All of these issues have the ability to hinder your experience when handling a Data Migration.""")
+  elif(userchoice == "12"):
+    print("""\033[1m RELATED TO BUSINESS M&A \033[0m
+    The systems will probably change as two or more company entities integrate with one another, whether the merger is formal or more of an acquisition. 
+By exerting more control over the process, lessening competition, or employing other strategies, merging or acquiring may aim to cut expenses. In the end, the merger should give the new organization or company a competitive edge.
+One of the following integration strategies will be chosen as a consequence of system merging:
+both systems may be preserved and developed to have the same functionality. Parallel operation of both systems incurs considerable maintenance expenses. 
+A new system might take the place of both existing ones. This could lead to a new system that, generally, better suits the demands of the new company or organization, but it will come at a greater initial cost, including new training for all personnel. 
+Pick the top system elements from each, then combine them. This gives the original employees of both companies some familiarity, but it may take them longer to get used to the entire system because some components operate according to habit rather than a complete change.
+Choose the superior system and completely discard the inferior one. People who are accustomed to the abandoned system may oppose change, and there may be administrative problems. Those who are already familiar with the chosen system, however, might be resources because they have firsthand knowledge of it.""")
+  elif(userchoice == "13"):
+    print("""\033[1m MERGER VS ACQUISITION \033[0m
+    The difference between merger and acquisition may be a bit confusing to identify, but once understood it will be as clear as water.
+    MERGER: A merger occurs when two separate entities combine forces to create a new, joint organization.
+    ACQUISITION: An aquisition refers to the takeover of one entity by another entity.""")
   else:
     print("INVALID INPUT, please try again")
     answer = "empty"   
