@@ -27,6 +27,35 @@ print("""             \033[1m SYSTEM IMPLEMENTATION \033[0m
 12) Related to Business M&A
 13) Merger vs Acquisition
 """)
+
+print("""             \033[1m SYSTEM DESIGN \033[0m
+14) SaaS
+15) On-Premise Software
+16) System Life Cycle
+17) Functional Testing
+""")
+print("""             \033[1m SOFTWARE TESTING \033[0m
+18) Debugging
+19) Validation vs Verification
+20) Testing & Types of Testing
+21) Types of Data Used in Testing
+""")
+print("""             \033[1m COMPONENTS OF A COMPUTER SYSTEM \033[0m
+22) Patch, update, upgrade, etc.
+23) Hardware
+24) Software
+25) Peripheral Devices
+26) Computer Network
+27) Human Resources
+28) Dumb Terminal
+29) Thin Client
+30) Client
+31) Email Server
+32) Router
+33) DNS (Domain Name System) Server
+34) Firewall
+35) Client-Server
+""")
 answer = "empty"
 
 while (answer == "empty"):
@@ -115,6 +144,96 @@ Choose the superior system and completely discard the inferior one. People who a
     The difference between merger and acquisition may be a bit confusing to identify, but once understood it will be as clear as water.
     MERGER: A merger occurs when two separate entities combine forces to create a new, joint organization.
     ACQUISITION: An aquisition refers to the takeover of one entity by another entity.""")
+  elif(userchoice == "14"):
+    print("""\033[1m SaaS \033[0m
+    Software as a Service is a software licensing and delivery model in which software is licensed on a subscription basis and is centrally hosted. It is sometimes referred to as "on-demand software", and was formerly referred to as "software plus services" by Microsoft.
+
+By 'centrally hosted', what we mean is that the software is not run on the local computer system, but instead uses the internet to connect to servers from the software manufacturer. It is on the software manufacturer's servers that the software is run, managed, and maintained. An everyday example would be Google Docs. An example in the business would be the widely used enterprise software by German software company SAP SE.""")
+  elif(userchoice == "15"):
+    print("""\033[1m ON-PREMISE SOFTWARE \033[0m
+    On-Premise Software is software that is installed and runs on computers on the premises of the person or organization using the software, rather than at a remote facility such as a server farm or cloud.
+    On-premise software or systems typically require having on-staff IT professionals. If there is an issue that local staff can't solve, it may require remote access with the software/system provider, or may even require IT Support or a Software Engineer to travel to help resolve the issue. This can result in further expenses as well as lost time. For small companies, on-premise software or systems may have a lot of unexpected costs when issues occur. However, with SaaS, you may have additional costs too, such as legal costs related to contracts.""")
+  elif(userchoice == "16"):
+    print("""\033[1m SYSTEM LIFE CYCLE \033[0m
+    This refers to the stages we move through when developing a new system. There are a variety of ways to illustrate and discuss this, and no specific way is accurate all the time, as needs and situations can vary significantly. Ideally, we move through the stages one at a time, without having to backtrack. 
+
+Realistically thought, we often talk about it as a cycle as we know we know we will probably have to move back and forth between stages as well as move through the whole cycle again as time progresses and our needs change.
+
+We can look at System Life Cycles related specifically to systems, or specifically related to software. However, the two are not significantly different. Below, you can see how it specifically relates to Software Development.""")
+  elif(userchoice == "17"):
+    print("""\033[1m FUNCTIONAL TESTING \033[0m
+    Software testing is the process of verifying a system with the purpose of identifying any errors, gaps or missing requirement versus the actual requirement.""")
+  elif(userchoice == "18"):
+    print("""\033[1m DEBUGGING \033[0m
+    The systematic process of correcting and fixing bugs or potential errors in a program.""")
+  elif(userchoice == "19"):
+    print("""\033[1m VALIDATION VS VERIFICATION \033[0m
+    Validation is the process of checking whether the specification captures the customer's requirements, while verification is the process of checking that the software meets specifications. Verification includes all the activities associated with the producing high quality software.""")
+  elif(userchoice == "20"):
+    print("""\033[1m TESTING & TYPES OF TESTING \033[0m
+    dry-run - A dry-run is when you manually move through the code with pen-and-paper, to determine the expected outcome when the code is executed.
+    functional - Functional testing relates to testing individual commands, text input, menu functions, etc.
+    unit - Unit testing relates to separately testing the individual components or parts of the system or software.
+    integration - These are both in contrast to integration testing, where the components are testing together within the system or software to verify that everything works correctly with each other.
+    user acceptance - User acceptance testing relates to determining if the system satisfies the customer's needs. This is usually done on-premise before the system or software is shipped or trasnfered to the customer. This is more common when a system or software is specifically designed for a specific client, and not a software provided for the general public.
+    alpha - In alpha testing, the software or system is released to those within the company or organization who are not specifically involved in the development or implementation of the product. For example, if you are a developer for Apple's Final Cut Pro software, when a new iPhone model is available, they may ask if you'd like one of the early models that's still in testing. This allows them to get feedback and testing data more similar to how actual customers would use the new phone model.
+  beta - In beta testing, the software system is available to the public (or a group consisting of the public). As this includes the actual public, this is the closest and most realistic testing data a company or organization can get before the product is fully available. At this point, the product should be very stable, and testing may be more related to any unusual cases where the system or software may interact in an unexpected way with other software or systems, or also as a stress test if the system or software has to connect to servers or other internet-based resources.""")
+  elif(userchoice == "21"):
+    print("""\033[1m TYPES OF DATA USED IN TESTING \033[0m
+    normal - A normality test is used to determine whether sample data has been drawn from a normally distributed population
+    at the limits - The limit test feature allows you to set the limit line for each trace and then perform the pass/fail judgment for the measurement result.
+    extreme - valid data that falls at the boundary fo any possible ranges.
+    abnormal - Test data that falls outside of what is acceptable and should be rejected by the system.""")
+  elif(userchoice == "22"):
+    print("""\033[1m PATCH, UPDATE, UPGRADE, ETC. \033[0m
+   Patches: used by software companies to update applications by fixing known bugs and vulnerabilities. Be aware that patches may introduce new bugs.
+
+Upgrades: contain a novel function or characteristic, as well as cumulative bug fixes. Upgrades often require an additional purchase.
+
+Updates: improve a product in a minor way, adding some new functionality or fixing a bug. Updates are usually free. Updates may be obtained manually, or may also be automatic through an internet connection.
+
+Releases: final, working versions of software applications. Prior to release, they should undergo alpha and beta testing. A release is a new product, or an upgraded product.""")
+  elif(userchoice == "23"):
+    print("""\033[1m HARDWARE \033[0m
+   Hardware refers to the computer's tangible components or delivery systems that store and run the written instructions provided by the software.""")
+  elif(userchoice == "24"):
+    print("""\033[1m SOFTWARE \033[0m
+   Software is a set of instructions, data or programs used to operate computers and execute specific tasks.""")
+  elif(userchoice == "25"):
+    print("""\033[1m PERIPHERAL DEVICES \033[0m
+   
+Image result for peripheral devices computer science
+A peripheral device is an internal or external device that connects directly to a computer or other digital device but does not contribute to the computer's primary function, such as computing.""")
+  elif(userchoice == "26"):
+    print("""\033[1m COMPUTER NETWORK \033[0m
+   A set of computer systems that are interconnected and share resources, as well as data. For example: Local Area Network, Wide Area Network, etc.""")
+  elif(userchoice == "27"):
+    print("""\033[1m HUMAN RESOURCES \033[0m
+   People who are part of (or could be part of) an organization, business, or economy.""")
+  elif(userchoice == "28"):
+    print("""\033[1m DUMB TERMINAL \033[0m
+   A dumb terminal is a terminal that does not performing local processing of entered information, but serves only as an input/output device for an attached or network-linked processor.""")
+  elif(userchoice == "29"):
+    print("""\033[1m THIN CLIENT \033[0m
+   A thin client (or lean client) is a virtual desktop computing model that runs on the resources stored on a central server instead of a computer's resources.""")
+  elif(userchoice == "30"):
+    print("""\033[1m CLIENT \033[0m
+   A client is any computer hardware or software device that requests access to a service provided by a server.""")
+  elif(userchoice == "31"):
+    print("""\033[1m EMAIL SERVER \033[0m
+   An email server, or simply mail server, is an application or computer in a network whose sole purpose is to act as a virtual post office. """)
+  elif(userchoice == "32"):
+    print("""\033[1m ROUTER \033[0m
+   A router is a physical or virtual appliance that passes information between two or more packet-switched computer networks.""")
+  elif(userchoice == "33"):
+    print("""\033[1m DNS (DOMAIN NAME SYSTEM) SERVER \033[0m
+   The domain name system (DNS) is a naming database in which internet domain names are located and translated into Internet Protocol (IP) addresses.""")
+  elif(userchoice == "34"):
+    print("""\033[1m FIREWALL \033[0m
+   A type of system used to monitor connections between computer networks.""")
+  elif(userchoice == "35"):
+    print("""\033[1m CLIENT-SERVER \033[0m
+   A client-server network is the medium through which clients access resources and services from a central computer, via either a local area network (LAN) or a wide-area network (WAN), such as the Internet.""")
   else:
     print("INVALID INPUT, please try again")
     answer = "empty"   
