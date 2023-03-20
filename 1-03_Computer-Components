@@ -1,0 +1,25 @@
+Computer Components/Architecture
+
+IPO - IPO is a basic acronym representing the basics of an information system. It is also an abstract way of describing the structure of a system or an algorithm. 
+
+Input -> Process -> Output
+
+The entity receives some input, processes it, and produces some output
+The model can represent a total system - like a phone - or a single aspect of the system, like a button on an app
+A practical aspect of this model is that if you standardize the inputs and outputs, then how exactly the data is processed is not important
+Sometimes a feedback loop from output to process and a storage to process back & forth can be added to extend the basic IPO model
+Some storage might be used as a cache
+A feedback loop represents an output from one process being inputted again, potentially for a recursion or for another process
+
+Parts of a Computer
+Some parts of the computer include:
+Central Processing Unit (CPU)
+Motherboard
+Random Access Memory (RAM)
+Video Graphics Array Port
+Power Supply
+Cooling Fan
+Hard Drive
+Monitor
+Network Card
+Video Card
